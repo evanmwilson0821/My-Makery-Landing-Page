@@ -1883,7 +1883,7 @@ a:hover.back-to-top {
 
 	/* Details */
 	.basic-1 {
-		padding-top: 8rem;
+		padding-top: 1.5rem;
 	}
 
 	.basic-1 .text-container {
@@ -2059,7 +2059,7 @@ a:hover.back-to-top {
 	}
 
 	.basic-1 .text-container {
-		margin-top: 1rem;
+		/* margin-top: 1rem; */
 		margin-right: 1.5rem;
 		margin-left: 1rem;
 	}
@@ -2067,6 +2067,11 @@ a:hover.back-to-top {
 	.basic-1 h2 {
 		margin-bottom: 1rem;
 	}
+
+  .basic-1 .h1-heading {
+    padding-bottom: 5rem;
+    color: #540093;
+  }
 	/* end of details */
 
 
