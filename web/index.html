@@ -8,6 +8,16 @@
     <meta name="description" content="My Makery is an Education Platform meets a Project Management Platform that empowers managers of inexperienced interns to run an incredible internship program without sacrificing productivity.">
     <meta name="author" content="My Makery">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150944284-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-150944284-1');
+    </script>
+
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
 	<meta property="og:site_name" content="My Makery" /> <!-- website name -->
 	<meta property="og:site" content="mymakery.co" /> <!-- website link -->
@@ -633,7 +643,7 @@
                               </li>
                             </ul>
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a>
+                                <a class="btn-solid-reg page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSdPTsqbJqR1Oydkr-O_1Sy0Uz3x-VZK2e274xGVEqbRsJ0ydg/viewform?usp=sf_link">SIGN UP</a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -664,7 +674,7 @@
                               </li>
                             </ul>
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a>
+                                <a class="btn-solid-reg page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSdPTsqbJqR1Oydkr-O_1Sy0Uz3x-VZK2e274xGVEqbRsJ0ydg/viewform?usp=sf_link">SIGN UP</a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -698,7 +708,7 @@
                                 </li>
                             </ul>
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="sign-up.html">CONTACT</a>
+                                <a class="btn-solid-reg page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSdPTsqbJqR1Oydkr-O_1Sy0Uz3x-VZK2e274xGVEqbRsJ0ydg/viewform?usp=sf_link">CONTACT</a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -738,7 +748,7 @@
                                 <div class="media-body">Automatically see what interns are working on, and what their managers are saying</div>
                             </li>
                         </ul>
-                        <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a>
+                        <a class="btn-solid-reg page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSeMYriOw0aM7jVmE6z2gyJ8vcNm9kzGhzzKAotsDw9a7_MXmw/viewform?usp=sf_link">SIGN UP</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -891,6 +901,7 @@
 
                         <!-- Newsletter Form -->
                         <form id="newsletterForm" data-toggle="validator" data-focus="false">
+                            <!--
                             <div class="form-group">
                                 <input type="email" class="form-control-input" id="nemail" required>
                                 <label class="label-control" for="nemail">Email</label>
@@ -901,7 +912,29 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="form-control-submit-button">SUBSCRIBE</button>
+                            -->
+                    <!-- Begin Mailchimp Signup Form -->
+                    <!--<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">-->
+                                <style type="text/css">
+                                        #mc_embed_signup{display: flex; align-items:center; justify-content:center;}
+                                        #mc-embedded-subscribe{display:flex; justify-self:center; margin-top:15px; margin-left:25px; width:250px; font-size:20px;}
+                                        #mce-EMAIL{width: 300px;}
+                                        /*#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }*/
+                                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                                </style>
+                                <div id="mc_embed_signup">
+                                    <form action="https://mymakery.us3.list-manage.com/subscribe/post?u=bf7a864ff790da085204d0a13&amp;id=1bbfc142ea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll">
+                                            <input type="email" value="" name="EMAIL" class="email form-control-input" id="mce-EMAIL" placeholder="email address" required>
+                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bf7a864ff790da085204d0a13_1bbfc142ea" tabindex="-1" value=""></div>
+                                        <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button btn-solid-reg"></div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                    <!--End mc_embed_signup-->
                             </div>
                             <div class="form-message">
                                 <div id="nmsgSubmit" class="h3 text-center hidden"></div>
