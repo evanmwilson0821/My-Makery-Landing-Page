@@ -1835,6 +1835,11 @@ a:hover.back-to-top {
 	.cards-1 .card-image {
 		width: 9rem;
 	}
+
+  .cards-1 .h1-heading {
+    padding-bottom: 5rem;
+    color: #333;
+  }
 	/* end of description */
 
 
@@ -2087,6 +2092,11 @@ a:hover.back-to-top {
 		padding-right: 2.25rem;
 		padding-left: 2.25rem;
 	}
+
+  .cards-2 .h1-heading {
+    padding-bottom: 5rem;
+    color: #333;
+  }
 	/* end of pricing */
 
 
