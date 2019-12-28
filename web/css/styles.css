@@ -1183,6 +1183,9 @@ input[type='checkbox'] {
 	border-top: 1rem solid transparent;
 	border-bottom: 1rem solid transparent;
 }
+.thumbnailVideoWrapper{
+	margin-top: 6em;
+}
 
 @keyframes pulse-border {
 	0% {
