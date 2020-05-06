@@ -658,6 +658,7 @@ input[type='checkbox'] {
 
 .navbar-custom .container {
 	max-width: 87.5rem;
+  height: 2.0rem;
 }
 
 .navbar-custom .navbar-brand.logo-image img {
@@ -787,7 +788,7 @@ input[type='checkbox'] {
 }
 
 .header .header-content {
-	padding-top: 5rem;
+	padding-top: 3rem;
 	padding-bottom: 4rem;
 	text-align: center;
 }
@@ -797,21 +798,28 @@ input[type='checkbox'] {
 }
 
 .header h1 {
-	margin-bottom: 1rem;
+	margin-bottom: 3.0rem;
 	color: #fff;
-	font-size: 1.0rem;
-	line-height: 3rem;
+	font-size: 2.5rem !important;
+	line-height: 3.5rem !important;
 }
 
 .header .p-large {
 	margin-bottom: 2rem;
+  margin-top:0.0rem;
 	color: #f3f7fd;
+}
+
+.header img {
+  padding-top: 4.0rem;
+  padding-left: 5rem;
 }
 
 .header .btn-solid-lg {
 	margin-right: 0.5rem;
 	margin-bottom: 1.125rem;
 	margin-left: 0.5rem;
+  margin-top: .5rem;
 	border-color: #f3f7fd;
 	background-color: #f3f7fd;
 	color: #5F5EAD;
@@ -842,6 +850,109 @@ input[type='checkbox'] {
   padding-top: 4.5rem;
 }
 
+/***********************/
+/*     04.1. Remote     */
+/***********************/
+.remote {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+.remote h2 {
+	padding-top: 4rem;
+}
+
+.remote p {
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+}
+
+.remote img {
+  padding-top: 4.0rem;
+  padding-left: 2.0rem;
+}
+
+.remote .text-container {
+  padding-top: 3rem;
+}
+
+.remote .list-unstyled {
+	margin-bottom: 1.375rem;
+}
+
+.remote .list-unstyled .fas {
+	color: #5F5EAD;
+	font-size: 0.5rem;
+	line-height: 1.625rem;
+}
+
+.remote .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+/***********************/
+/*     04.2. Call to Action     */
+/***********************/
+.call-to-action {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+  background-color: #5F5EAD;
+}
+
+.call-to-action h2 {
+  color: #ffffff;
+}
+
+.call-to-action p {
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+  color: #ffffff;
+}
+
+.call-to-action img {
+  padding-top: 2.0rem;
+  padding-left: 2.0rem;
+}
+
+.call-to-action .text-container {
+  margin-top: 1.0rem;
+}
+
+.call-to-action .list-unstyled {
+	margin-bottom: 1.375rem;
+}
+
+.call-to-action .list-unstyled .fas {
+	color: #5F5EAD;
+	font-size: 0.5rem;
+	line-height: 1.625rem;
+}
+
+.call-to-action .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.call-to-action .btn-solid-lg {
+	border-color: #f3f7fd;
+	background-color: #f3f7fd;
+	color: #5F5EAD;
+  margin-bottom: 1.0rem;
+}
+
+.call-to-action .btn-solid-lg:hover {
+	background: transparent;
+	color: #f3f7fd;
+}
+
+.call-to-action .btn-outline-lg {
+	border-color: #f3f7fd;
+	color: #f3f7fd;
+}
+
+.call-to-action .btn-outline-lg:hover {
+	background-color: #f3f7fd;
+	color: #5F5EAD;
+}
 
 /*************************/
 /*     05. Customers     */
@@ -860,13 +971,14 @@ input[type='checkbox'] {
 /*     06. Description     */
 /***************************/
 .cards-1 {
-	padding-top: 3.25rem;
+	padding-top: 5.0rem;
 	padding-bottom: 3rem;
 	text-align: center;
 }
 
-.cards-1 .h2-heading {
-	margin-bottom: 3.5rem;
+.cards-1 .h1-heading {
+	margin-bottom: 3.0rem;
+  color: #5F5EAD !important;
 }
 
 .cards-1 .card {
@@ -886,7 +998,7 @@ input[type='checkbox'] {
 }
 
 .cards-1 .card-title {
-	margin-bottom: 0.5rem;
+	margin-bottom: 1.5rem;
 }
 
 .cards-1 .card-body {
@@ -1094,6 +1206,50 @@ input[type='checkbox'] {
 }
 
 .basic-1 .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+/***********************/
+/*     04.2. Institutions     */
+/***********************/
+.institutions {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+.institutions h1 {
+	color:#5F5EAD;
+}
+
+.institutions h2 {
+	padding-top: 3rem;
+}
+
+.institutions p {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+.institutions img {
+  padding-top: 1.5rem;
+  padding-left: 2.0rem;
+}
+
+.institutions .text-container {
+  padding-top: 0rem;
+}
+
+.institutions .list-unstyled {
+	margin-bottom: 1.375rem;
+}
+
+.institutions .list-unstyled .fas {
+	color: #5F5EAD;
+	font-size: 0.5rem;
+	line-height: 1.625rem;
+}
+
+.institutions .list-unstyled .media-body {
 	margin-left: 0.625rem;
 }
 
