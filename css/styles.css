@@ -179,8 +179,26 @@ a.white {
 	transition: all 0.2s;
 }
 
+.btn-solid-lg-clear {
+	display: inline-block;
+	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+	border: 0.125rem solid #fff;
+	border-radius: 2rem;
+	background-color: #5F5EAD;
+	color: #fff;
+	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
 .btn-solid-lg:hover {
 	background-color: transparent;
+	color: #5F5EAD;
+	text-decoration: none;
+}
+
+.btn-solid-lg-clear:hover {
+	background-color: #fff;
 	color: #5F5EAD;
 	text-decoration: none;
 }
@@ -1321,6 +1339,72 @@ input[type='checkbox'] {
 	margin-left: 0.625rem;
 }
 
+/***********************/
+/*     04.3. Product     */
+/***********************/
+.product {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+.product h1 {
+	color:#333;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.product h2 {
+	padding-top: 3rem;
+  font-size: 1.75rem;
+  color: #5f5ead;
+}
+
+.product p {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+.product img {
+  padding-top: 2rem;
+  padding-left: 4rem;
+}
+
+.product .link {
+  color: #5F5EAD;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.product .link:hover {
+  text-decoration: underline;
+}
+
+.product .image-container {
+  padding-top: 1.5rem;
+  padding-left: 2.0rem;
+}
+
+.product .text-container {
+  padding-left: 0rem;
+}
+
+.product .list-unstyled {
+	margin-bottom: 1.375rem;
+}
+
+.product .list-unstyled .fas {
+	color: #5F5EAD;
+	font-size: 0.5rem;
+	line-height: 1.625rem;
+}
+
+.product .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.product-row {
+  padding-bottom: 5rem;
+}
 
 /*********************/
 /*     10. Video     */
